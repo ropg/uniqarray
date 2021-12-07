@@ -47,7 +47,7 @@ There really isn't all that much to it. Feel free to copy code below to your own
 ```js
 class UniqArray extends Array {
     constructor(...args) {
-        super(...new Set(args));
+        return super(...new Set(args));
     }
     push(...args) {
         for (const a of args) if (!this.includes(a)) super.push(a);
