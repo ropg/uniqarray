@@ -1,6 +1,6 @@
 class UniqArray extends Array {
     constructor(...args) {
-        super(...new Set(args));
+        return super(...new Set(args));
     }
     push(...args) {
         for (const a of args) if (!this.includes(a)) super.push(a);

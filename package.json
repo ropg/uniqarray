@@ -1,7 +1,7 @@
 {
     "name": "@ropg/uniqarray",
     "description": "Array that will only ever hold unique values",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "repository": {
         "type": "git",
         "url": "https://github.com/ropg/uniqarray.git"
