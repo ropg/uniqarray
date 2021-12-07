@@ -1,0 +1,10 @@
+{
+    "name": "uniqarray",
+    "description": "Array that will only ever hold unique values",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ropg/uniqarray.git"
+    },
+    "license": "MIT"
+}
