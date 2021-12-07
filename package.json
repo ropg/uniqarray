@@ -1,5 +1,5 @@
 {
-    "name": "uniqarray",
+    "name": "@ropg/uniqarray",
     "description": "Array that will only ever hold unique values",
     "version": "1.0.0",
     "repository": {

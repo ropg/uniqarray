@@ -5,18 +5,18 @@
 This package gives you a `UniqArray` class that does everything a regular `Array` does, except it will ignore it when you try to add any values that are already contained in it.
 
 > Frustratingly, there's a ton of packages in the index that provide just a single function to remove duplicates and return the array. All equivalents of `let uniqueItems = [...new Set(items)]`. 
->This provides a convenient full-featured array where the duplicates never make it in, so you don't have to filter them out all the time. 
+> This provides a convenient full-featured array where the duplicates never make it in, so you don't have to filter them out all the time. 
 
 ## Installation
 
 ```text
-npm install uniqarray --save
+npm install @ropg/uniqarray --save
 ```
 
 ## Usage
 
 ```js
-const UniqArray = require('uniqarray');
+const UniqArray = require('@ropg/uniqarray');
 
 let a = new UniqArray(1,2,3,2);
 console.log(a);                         // UniqArray(3) [ 1, 2, 3 ]
