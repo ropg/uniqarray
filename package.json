@@ -6,5 +6,12 @@
         "type": "git",
         "url": "https://github.com/ropg/uniqarray.git"
     },
-    "license": "MIT"
+    "license": "MIT",
+    "keywords": [
+        "array",
+        "unique",
+        "unique-array",
+        "array-unique",
+        "remove duplicates"
+    ]
 }
